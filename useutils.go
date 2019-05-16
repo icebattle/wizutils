@@ -8,7 +8,6 @@ import (
 
 func main() {
 	fmt.Println("TESTING")
-
 	greets.Hello()
 	greets.Goodbye()
 }
