@@ -1,10 +1,14 @@
 package main
 
 import (
-	"github.com/wizutils/greets"
+	"fmt"
+
+	"github.com/icebattle/wizutils/greets"
 )
 
 func main() {
+	fmt.Println("TESTING")
+
 	greets.Hello()
 	greets.Goodbye()
 }
